@@ -32,14 +32,14 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/mnvini/spotify-wrapper-player/tags).
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/vinimoret/spotify-wrapper-player/tags).
 
 ## Authors
 
 |:---------------------:|
-| [Vinicius Moret](https://github.com/mnvini/) |
+| [Vinicius Moret](https://github.com/vinimoret/) |
 
-See also the list of [contributors](https://github.com/mnvini/spotify-wrapper-player/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/vinimoret/spotify-wrapper-player/contributors) who participated in this project.
 
 ## License
 

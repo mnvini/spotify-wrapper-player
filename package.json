@@ -9,35 +9,28 @@
     "build:watch": "npm run build -- --watch",
     "lint": "./node_modules/.bin/eslint src/*.js",
     "prepush": "npm run lint",
-    "test": "./node_modules/.bin/mocha tests/**/*.spec.js --require babel-register",
-    "test:tdd": "./node_modules/.bin/mocha tests/**/*.spec.js --require babel-register --watch",
+    "test":
+      "./node_modules/.bin/mocha tests/**/*.spec.js --require babel-register",
+    "test:tdd":
+      "./node_modules/.bin/mocha tests/**/*.spec.js --require babel-register --watch",
     "test:coverage": "nyc npm test",
     "start": "./node_modules/.bin/webpack-dev-server --open"
   },
   "nyc": {
-    "reporter": [
-      "text",
-      "html"
-    ],
-    "exclude": [
-      "tests/**"
-    ]
+    "reporter": ["text", "html"],
+    "exclude": ["tests/**"]
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mnvini/spotify-wrapper-player.git"
+    "url": "git+https://github.com/vinimoret/spotify-wrapper-player.git"
   },
-  "keywords": [
-    "js",
-    "tdd",
-    "library"
-  ],
+  "keywords": ["js", "tdd", "library"],
   "author": "Vinicius Moret <viniciusrcr@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mnvini/spotify-wrapper-player/issues"
+    "url": "https://github.com/vinimoret/spotify-wrapper-player/issues"
   },
-  "homepage": "https://github.com/mnvini/spotify-wrapper-player#readme",
+  "homepage": "https://github.com/vinimoret/spotify-wrapper-player#readme",
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-loader": "^7.1.2",
